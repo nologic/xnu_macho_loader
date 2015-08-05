@@ -1627,7 +1627,7 @@ int main() {
     struct image_params img;
     int size;
     
-    data = get_file_data("/Users/mikhail/play/ios-echo", &size);
+    data = get_file_data("./mach-o-sample", &size);
     
     printf("Size: %d\n", size);
     
